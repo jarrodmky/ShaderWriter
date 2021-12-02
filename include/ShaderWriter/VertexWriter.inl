@@ -28,7 +28,7 @@ namespace sdw
 		, ParamsT ... params )
 		: VertexInT< DataT >{ writer
 			, makeExpr( writer
-				, getShader( writer ).registerName( "vertIn"
+				, sdw::getShader( writer ).registerName( "vertIn"
 					, makeType( getTypesCache( writer )
 						, std::forward< ParamsT >( params )... )
 					, FlagT ) )
@@ -83,7 +83,7 @@ namespace sdw
 		, ParamsT ... params )
 		: VertexOutT< DataT >{ writer
 			, makeExpr( writer
-				, getShader( writer ).registerName( "vertOut"
+				, sdw::getShader( writer ).registerName( "vertOut"
 					, makeType( getTypesCache( writer )
 						, std::forward< ParamsT >( params )... )
 					, FlagT ) )

@@ -15,7 +15,7 @@ namespace sdw
 		, ParamsT ... params )
 		: FragmentInT{ writer
 			, makeExpr( writer
-				, getShader( writer ).registerName( "fragIn"
+				, sdw::getShader( writer ).registerName( "fragIn"
 					, makeFragmentInputType( makeType( getTypesCache( writer ), std::forward< ParamsT >( params )... )
 						, origin
 						, center )
@@ -104,7 +104,7 @@ namespace sdw
 		, ParamsT ... params )
 		: FragmentOutT{ writer
 			, makeExpr( writer
-				, getShader( writer ).registerName( "fragOut"
+				, sdw::getShader( writer ).registerName( "fragOut"
 					, makeType( getTypesCache( writer ), std::forward< ParamsT >( params )... )
 					, FlagT ) ) }
 	{

@@ -7,9 +7,9 @@ namespace sdw
 
 	namespace details
 	{
-		inline void getFunctionCallParamsRec( ShaderWriter & writer
-			, expr::ExprList & args
-			, bool & isEnabled )
+		inline void getFunctionCallParamsRec( ShaderWriter &
+			, expr::ExprList &
+			, bool & )
 		{
 		}
 
@@ -285,7 +285,7 @@ namespace sdw
 		, ParamT && current
 		, ParamsT && ... params );
 
-	inline void getFunctionHeaderArgsRec( var::VariableList & args )
+	inline void getFunctionHeaderArgsRec( var::VariableList & )
 	{
 	}
 

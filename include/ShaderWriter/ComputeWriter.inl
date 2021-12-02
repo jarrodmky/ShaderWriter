@@ -19,7 +19,7 @@ namespace sdw
 		, ParamsT ... params )
 		: ComputeInT{ writer
 			, makeExpr( writer
-				, getShader( writer ).registerName( "compIn"
+				, sdw::getShader( writer ).registerName( "compIn"
 					, ast::type::makeComputeInputType( makeType( getTypesCache( writer ), std::forward< ParamsT >( params )... )
 						, localSizeX
 						, localSizeY

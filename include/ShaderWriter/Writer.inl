@@ -37,7 +37,7 @@ namespace sdw
 	/**@{*/
 	namespace details
 	{
-		inline void doUpdateParamsRec( var::VariableList::const_iterator it )
+		inline void doUpdateParamsRec( var::VariableList::const_iterator )
 		{
 		}
 

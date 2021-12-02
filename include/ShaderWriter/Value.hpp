@@ -90,67 +90,67 @@ namespace sdw
 		bool m_enabled;
 	};
 
-	inline bool isOptionalEnabled( bool const & value )
+	inline bool isOptionalEnabled( bool const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( int8_t const & value )
+	inline bool isOptionalEnabled( int8_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( int16_t const & value )
+	inline bool isOptionalEnabled( int16_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( int32_t const & value )
+	inline bool isOptionalEnabled( int32_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( int64_t const & value )
+	inline bool isOptionalEnabled( int64_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( uint8_t const & value )
+	inline bool isOptionalEnabled( uint8_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( uint16_t const & value )
+	inline bool isOptionalEnabled( uint16_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( uint32_t const & value )
+	inline bool isOptionalEnabled( uint32_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( uint64_t const & value )
+	inline bool isOptionalEnabled( uint64_t const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( float const & value )
+	inline bool isOptionalEnabled( float const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( double const & value )
+	inline bool isOptionalEnabled( double const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( long double const & value )
+	inline bool isOptionalEnabled( long double const & )
 	{
 		return true;
 	}
 
-	inline bool isOptionalEnabled( ShaderWriter const & value )
+	inline bool isOptionalEnabled( ShaderWriter const & )
 	{
 		return true;
 	}

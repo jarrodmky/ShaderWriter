@@ -80,42 +80,42 @@ namespace sdw
 			return TypeGetter< TypeT >::get( writer, value );
 		}
 
-		inline ShaderWriter * getWriter( bool const & value )
+		inline ShaderWriter * getWriter( bool const & )
 		{
 			return &getCurrentWriter();
 		}
 		
-		inline ShaderWriter * getWriter( int32_t const & value )
+		inline ShaderWriter * getWriter( int32_t const & )
 		{
 			return &getCurrentWriter();
 		}
 
-		inline ShaderWriter * getWriter( int64_t const & value )
+		inline ShaderWriter * getWriter( int64_t const & )
 		{
 			return &getCurrentWriter();
 		}
 
-		inline ShaderWriter * getWriter( uint32_t const & value )
+		inline ShaderWriter * getWriter( uint32_t const & )
 		{
 			return &getCurrentWriter();
 		}
 
-		inline ShaderWriter * getWriter( uint64_t const & value )
+		inline ShaderWriter * getWriter( uint64_t const & )
 		{
 			return &getCurrentWriter();
 		}
 
-		inline ShaderWriter * getWriter( float const & value )
+		inline ShaderWriter * getWriter( float const & )
 		{
 			return &getCurrentWriter();
 		}
 
-		inline ShaderWriter * getWriter( double const & value )
+		inline ShaderWriter * getWriter( double const & )
 		{
 			return &getCurrentWriter();
 		}
 
-		inline ShaderWriter * getWriter( long double const & value )
+		inline ShaderWriter * getWriter( long double const & )
 		{
 			return &getCurrentWriter();
 		}
@@ -148,7 +148,7 @@ namespace sdw
 
 	//***********************************************************************************************
 
-	inline void findWriterRec( ShaderWriter *& result )
+	inline void findWriterRec( ShaderWriter *& )
 	{
 	}
 
@@ -208,8 +208,8 @@ namespace sdw
 			return value.getType();
 		}
 
-		inline void findExprRec( ast::expr::ExprPtr & result
-			, ShaderWriter & writer )
+		inline void findExprRec( ast::expr::ExprPtr &
+			, ShaderWriter & )
 		{
 		}
 
